@@ -9,17 +9,20 @@
     <script defer src="app.js"></script>
     <title>idfk</title>
 </head>
-<body>
-    <header>
-        <div class="leftHeader">
-            <div class="logo">*logo*</div>
-            <div class="searchBox"><input type="text" placeholder="Search to Stalk"></div>
-        </div>
-        <div class="rightHeader">
-            <button class="logIn headerBtns">Log In</button>
-            <button class="signUp headerBtns">Sign Up</button>
-        </div>
-        
-    </header>
+<body onLoad="backgroundChange()">
+    <div id="headerBackground">
+        <header>
+            <div class="leftHeader">
+                <div class="logo">*logo*</div>
+                <div class="searchBox"><input type="text" placeholder="Search to Stalk"><button class="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button></div>
+            </div>
+            <div class="rightHeader">
+                <button class="logIn headerBtns">Log In</button>
+                <button class="signUp headerBtns">Sign Up</button>
+            </div>
+            
+        </header>
+    </div>
+    
 </body>
 </html>
