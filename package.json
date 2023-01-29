@@ -1,0 +1,23 @@
+{
+  "name": "trizzlers",
+  "version": "1.0.0",
+  "description": "Database using MongoDB for 2023 HackTAMS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Relaxolotl07/Trizzlers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Relaxolotl07/Trizzlers/issues"
+  },
+  "homepage": "https://github.com/Relaxolotl07/Trizzlers#readme",
+  "dependencies": {
+    "firebase": "^9.16.0"
+  }
+}
