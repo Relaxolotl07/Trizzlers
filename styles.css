@@ -12,22 +12,36 @@ body{
     margin: 0;
 }
 /* Header */
+#headerBackground{
+    background-image: url('images/streetWithPeople.jpeg');
+    background-size: 1800px;
+    height: 80%;
+    
+}
 header{
     padding-right: 2rem;
     padding-left: 1rem;
-    height: 20%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #5C2751;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+button{
+    border: none;
+    border-radius: 5px;
 }
 .leftHeader{
     display: flex;
     gap: 2rem;
 }
 input{
-    height: 2rem;
+    height: 32px;
     width: 20rem;
+    border-radius: 5px;
+    border: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 .headerBtns{
     height: 2rem;
@@ -36,6 +50,18 @@ input{
     border-radius: 5px;
 }
 .signUp{
-    background-color: var(--lightPurple);
-
+    background-color: var(--purple);
+    color: var(--white);
+}
+.searchBox{
+    display: flex;
+    align-items: center;
+}
+.searchBtn{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 34px;
+    width: 3em;
+    background-color: var(--purple);
+    color: var(--white);
 }
